@@ -32,5 +32,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/invert-binary-tree.py ':include :type=code')
+[Python](../pycode/tree/invert-binary-tree.py ':include :type=code')
 <!-- tabs:end -->

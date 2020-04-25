@@ -37,5 +37,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/construct-binary-tree-from-preorder-and-inorder-traversal.py ':include :type=code')
+[Python](../pycode/tree/construct-binary-tree-from-preorder-and-inorder-traversal.py ':include :type=code')
 <!-- tabs:end -->

@@ -31,5 +31,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/linkedlist/reorder-list.py ':include :type=code')
+[Python](../pycode/linkedlist/reorder-list.py ':include :type=code')
 <!-- tabs:end -->

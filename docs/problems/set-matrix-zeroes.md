@@ -59,5 +59,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/set-matrix-zeroes.py ':include :type=code')
+[Python](../pycode/array/set-matrix-zeroes.py ':include :type=code')
 <!-- tabs:end -->

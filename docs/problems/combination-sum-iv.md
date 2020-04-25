@@ -44,5 +44,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/combination-sum-iv.py ':include :type=code')
+[Python](../pycode/array/combination-sum-iv.py ':include :type=code')
 <!-- tabs:end -->

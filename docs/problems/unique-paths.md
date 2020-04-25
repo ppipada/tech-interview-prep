@@ -45,5 +45,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/unique-paths.py ':include :type=code')
+[Python](../pycode/array/unique-paths.py ':include :type=code')
 <!-- tabs:end -->

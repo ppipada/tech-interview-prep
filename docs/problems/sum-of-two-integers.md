@@ -25,5 +25,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/binary/sum-of-two-integers.py ':include :type=code')
+[Python](../pycode/binary/sum-of-two-integers.py ':include :type=code')
 <!-- tabs:end -->

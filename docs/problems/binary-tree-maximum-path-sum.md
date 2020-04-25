@@ -44,5 +44,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/binary-tree-maximum-path-sum.py ':include :type=code')
+[Python](../pycode/tree/binary-tree-maximum-path-sum.py ':include :type=code')
 <!-- tabs:end -->

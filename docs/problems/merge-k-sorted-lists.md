@@ -31,5 +31,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/linkedlist/merge-k-sorted-lists.py ':include :type=code')
+[Python](../pycode/linkedlist/merge-k-sorted-lists.py ':include :type=code')
 <!-- tabs:end -->

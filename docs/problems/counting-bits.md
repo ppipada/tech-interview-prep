@@ -80,5 +80,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/binary/counting-bits.py ':include :type=code')
+[Python](../pycode/binary/counting-bits.py ':include :type=code')
 <!-- tabs:end -->

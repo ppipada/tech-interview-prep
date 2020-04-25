@@ -34,5 +34,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/insert-interval.py ':include :type=code')
+[Python](../pycode/array/insert-interval.py ':include :type=code')
 <!-- tabs:end -->

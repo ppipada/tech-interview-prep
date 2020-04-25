@@ -35,5 +35,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/heap/top-k-frequent-elements.py ':include :type=code')
+[Python](../pycode/heap/top-k-frequent-elements.py ':include :type=code')
 <!-- tabs:end -->

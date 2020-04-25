@@ -61,5 +61,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/subtree-of-another-tree.py ':include :type=code')
+[Python](../pycode/tree/subtree-of-another-tree.py ':include :type=code')
 <!-- tabs:end -->

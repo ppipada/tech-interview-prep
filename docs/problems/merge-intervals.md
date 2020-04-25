@@ -34,5 +34,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/merge-intervals.py ':include :type=code')
+[Python](../pycode/array/merge-intervals.py ':include :type=code')
 <!-- tabs:end -->

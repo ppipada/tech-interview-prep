@@ -35,5 +35,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/longest-increasing-subsequence.py ':include :type=code')
+[Python](../pycode/array/longest-increasing-subsequence.py ':include :type=code')
 <!-- tabs:end -->

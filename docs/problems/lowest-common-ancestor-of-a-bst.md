@@ -39,5 +39,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/lowest-common-ancestor-of-a-bst.py ':include :type=code')
+[Python](../pycode/tree/lowest-common-ancestor-of-a-bst.py ':include :type=code')
 <!-- tabs:end -->

@@ -33,5 +33,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/linkedlist/remove-nth-node-from-end-of-list.py ':include :type=code')
+[Python](../pycode/linkedlist/remove-nth-node-from-end-of-list.py ':include :type=code')
 <!-- tabs:end -->

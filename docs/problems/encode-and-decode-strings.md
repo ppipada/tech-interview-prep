@@ -23,5 +23,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/encode-and-decode-strings.py ':include :type=code')
+[Python](../pycode/string/encode-and-decode-strings.py ':include :type=code')
 <!-- tabs:end -->

@@ -23,5 +23,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/three-sum.py ':include :type=code')
+[Python](../pycode/array/three-sum.py ':include :type=code')
 <!-- tabs:end -->

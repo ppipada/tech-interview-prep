@@ -42,5 +42,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/word-search.py ':include :type=code')
+[Python](../pycode/array/word-search.py ':include :type=code')
 <!-- tabs:end -->

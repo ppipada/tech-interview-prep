@@ -39,5 +39,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/house-robber.py ':include :type=code')
+[Python](../pycode/array/house-robber.py ':include :type=code')
 <!-- tabs:end -->

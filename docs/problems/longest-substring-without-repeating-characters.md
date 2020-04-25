@@ -35,5 +35,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/longest-substring-without-repeating-characters.py ':include :type=code')
+[Python](../pycode/string/longest-substring-without-repeating-characters.py ':include :type=code')
 <!-- tabs:end -->

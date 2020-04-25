@@ -37,5 +37,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/maximum-depth-of-binary-tree.py ':include :type=code')
+[Python](../pycode/tree/maximum-depth-of-binary-tree.py ':include :type=code')
 <!-- tabs:end -->

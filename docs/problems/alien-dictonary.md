@@ -64,5 +64,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/graph/alien-dictonary.py ':include :type=code')
+[Python](../pycode/graph/alien-dictonary.py ':include :type=code')
 <!-- tabs:end -->

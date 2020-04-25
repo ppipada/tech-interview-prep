@@ -47,5 +47,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/dp/word-break.py ':include :type=code')
+[Python](../pycode/dp/word-break.py ':include :type=code')
 <!-- tabs:end -->

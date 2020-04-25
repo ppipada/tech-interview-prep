@@ -33,5 +33,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/trie/implement-trie-prefix-tree.py ':include :type=code')
+[Python](../pycode/trie/implement-trie-prefix-tree.py ':include :type=code')
 <!-- tabs:end -->

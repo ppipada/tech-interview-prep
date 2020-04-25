@@ -47,5 +47,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/validate-binary-search-tree.py ':include :type=code')
+[Python](../pycode/tree/validate-binary-search-tree.py ':include :type=code')
 <!-- tabs:end -->

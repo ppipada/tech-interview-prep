@@ -34,5 +34,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/longest-palindromic-substring.py ':include :type=code')
+[Python](../pycode/string/longest-palindromic-substring.py ':include :type=code')
 <!-- tabs:end -->

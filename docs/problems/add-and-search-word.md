@@ -39,5 +39,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/trie/add-and-search-word.py ':include :type=code')
+[Python](../pycode/trie/add-and-search-word.py ':include :type=code')
 <!-- tabs:end -->

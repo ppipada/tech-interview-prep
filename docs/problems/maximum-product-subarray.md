@@ -34,5 +34,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/maximum-product-subarray.py ':include :type=code')
+[Python](../pycode/array/maximum-product-subarray.py ':include :type=code')
 <!-- tabs:end -->

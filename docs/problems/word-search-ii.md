@@ -40,5 +40,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/trie/word-search-ii.py ':include :type=code')
+[Python](../pycode/trie/word-search-ii.py ':include :type=code')
 <!-- tabs:end -->

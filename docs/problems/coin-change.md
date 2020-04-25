@@ -39,5 +39,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/dp/coin-change.py ':include :type=code')
+[Python](../pycode/dp/coin-change.py ':include :type=code')
 <!-- tabs:end -->

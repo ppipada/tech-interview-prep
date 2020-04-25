@@ -43,5 +43,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/same-tree.py ':include :type=code')
+[Python](../pycode/tree/same-tree.py ':include :type=code')
 <!-- tabs:end -->

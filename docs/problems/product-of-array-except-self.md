@@ -22,5 +22,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/product-of-array-except-self.py ':include :type=code')
+[Python](../pycode/array/product-of-array-except-self.py ':include :type=code')
 <!-- tabs:end -->

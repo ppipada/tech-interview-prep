@@ -26,5 +26,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/contains-duplicate.py ':include :type=code')
+[Python](../pycode/array/contains-duplicate.py ':include :type=code')
 <!-- tabs:end -->

@@ -23,5 +23,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/meeting-rooms.py ':include :type=code')
+[Python](../pycode/array/meeting-rooms.py ':include :type=code')
 <!-- tabs:end -->

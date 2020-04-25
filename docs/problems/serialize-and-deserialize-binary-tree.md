@@ -44,5 +44,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/serialize-and-deserialize-binary-tree.py ':include :type=code')
+[Python](../pycode/tree/serialize-and-deserialize-binary-tree.py ':include :type=code')
 <!-- tabs:end -->

@@ -40,5 +40,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/palindromic-substrings.py ':include :type=code')
+[Python](../pycode/string/palindromic-substrings.py ':include :type=code')
 <!-- tabs:end -->

@@ -43,5 +43,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/graph/course-schedule.py ':include :type=code')
+[Python](../pycode/graph/course-schedule.py ':include :type=code')
 <!-- tabs:end -->

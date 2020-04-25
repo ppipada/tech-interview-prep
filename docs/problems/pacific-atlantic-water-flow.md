@@ -41,5 +41,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/graph/pacific-atlantic-water-flow.py ':include :type=code')
+[Python](../pycode/graph/pacific-atlantic-water-flow.py ':include :type=code')
 <!-- tabs:end -->

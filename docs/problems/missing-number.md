@@ -43,5 +43,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/binary/missing-number.py ':include :type=code')
+[Python](../pycode/binary/missing-number.py ':include :type=code')
 <!-- tabs:end -->

@@ -45,5 +45,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/dp/climbing-stairs.py ':include :type=code')
+[Python](../pycode/dp/climbing-stairs.py ':include :type=code')
 <!-- tabs:end -->

@@ -32,5 +32,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/graph/graph-valid-tree.py ':include :type=code')
+[Python](../pycode/graph/graph-valid-tree.py ':include :type=code')
 <!-- tabs:end -->

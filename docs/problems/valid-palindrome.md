@@ -36,5 +36,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/valid-palindrome.py ':include :type=code')
+[Python](../pycode/string/valid-palindrome.py ':include :type=code')
 <!-- tabs:end -->

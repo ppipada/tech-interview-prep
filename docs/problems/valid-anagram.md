@@ -44,5 +44,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/valid-anagram.py ':include :type=code')
+[Python](../pycode/string/valid-anagram.py ':include :type=code')
 <!-- tabs:end -->

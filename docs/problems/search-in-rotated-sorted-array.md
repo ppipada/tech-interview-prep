@@ -22,5 +22,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/two-sum.py ':include :type=code')
+[Python](../pycode/array/two-sum.py ':include :type=code')
 <!-- tabs:end -->

@@ -37,5 +37,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/jump-game.py ':include :type=code')
+[Python](../pycode/array/jump-game.py ':include :type=code')
 <!-- tabs:end -->

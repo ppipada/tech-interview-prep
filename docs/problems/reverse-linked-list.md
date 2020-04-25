@@ -29,5 +29,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/linkedlist/reverse-linked-list.py ':include :type=code')
+[Python](../pycode/linkedlist/reverse-linked-list.py ':include :type=code')
 <!-- tabs:end -->

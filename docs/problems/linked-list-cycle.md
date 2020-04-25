@@ -40,5 +40,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/linkedlist/linked-list-cycle.py ':include :type=code')
+[Python](../pycode/linkedlist/linked-list-cycle.py ':include :type=code')
 <!-- tabs:end -->

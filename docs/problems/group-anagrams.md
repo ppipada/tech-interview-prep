@@ -35,5 +35,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/group-anagrams.py ':include :type=code')
+[Python](../pycode/string/group-anagrams.py ':include :type=code')
 <!-- tabs:end -->

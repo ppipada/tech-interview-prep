@@ -43,5 +43,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/decode-ways.py ':include :type=code')
+[Python](../pycode/string/decode-ways.py ':include :type=code')
 <!-- tabs:end -->

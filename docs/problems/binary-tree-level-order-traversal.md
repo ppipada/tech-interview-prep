@@ -37,5 +37,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/tree/binary-tree-level-order-traversal.py ':include :type=code')
+[Python](../pycode/tree/binary-tree-level-order-traversal.py ':include :type=code')
 <!-- tabs:end -->

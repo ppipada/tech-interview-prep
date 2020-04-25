@@ -23,5 +23,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/best-time-to-buy-and-sell-stock.py ':include :type=code')
+[Python](../pycode/array/best-time-to-buy-and-sell-stock.py ':include :type=code')
 <!-- tabs:end -->

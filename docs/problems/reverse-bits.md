@@ -42,5 +42,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/binary/reverse-bits.py ':include :type=code')
+[Python](../pycode/binary/reverse-bits.py ':include :type=code')
 <!-- tabs:end -->

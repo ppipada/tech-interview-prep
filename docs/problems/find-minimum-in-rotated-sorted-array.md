@@ -20,5 +20,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/find-minimum-in-rotated-sorted-array.py ':include :type=code')
+[Python](../pycode/array/find-minimum-in-rotated-sorted-array.py ':include :type=code')
 <!-- tabs:end -->

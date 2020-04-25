@@ -34,5 +34,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/minimum-window-substring.py ':include :type=code')
+[Python](../pycode/string/minimum-window-substring.py ':include :type=code')
 <!-- tabs:end -->

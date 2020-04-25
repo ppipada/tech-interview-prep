@@ -46,5 +46,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/heap/find-median-from-data-stream.py ':include :type=code')
+[Python](../pycode/heap/find-median-from-data-stream.py ':include :type=code')
 <!-- tabs:end -->

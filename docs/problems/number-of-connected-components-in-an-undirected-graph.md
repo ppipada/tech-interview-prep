@@ -42,5 +42,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/graph/number-of-connected-components-in-an-undirected-graph.py ':include :type=code')
+[Python](../pycode/graph/number-of-connected-components-in-an-undirected-graph.py ':include :type=code')
 <!-- tabs:end -->

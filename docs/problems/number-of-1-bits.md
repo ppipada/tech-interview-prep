@@ -26,5 +26,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/binary/number-of-1-bits.py ':include :type=code')
+[Python](../pycode/binary/number-of-1-bits.py ':include :type=code')
 <!-- tabs:end -->

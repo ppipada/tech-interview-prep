@@ -52,5 +52,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/graph/clone-graph.py ':include :type=code')
+[Python](../pycode/graph/clone-graph.py ':include :type=code')
 <!-- tabs:end -->

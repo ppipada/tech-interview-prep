@@ -30,5 +30,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/container-with-most-water.py ':include :type=code')
+[Python](../pycode/array/container-with-most-water.py ':include :type=code')
 <!-- tabs:end -->

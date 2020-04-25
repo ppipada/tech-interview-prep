@@ -47,5 +47,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/array/non-overlapping-intervals.py ':include :type=code')
+[Python](../pycode/array/non-overlapping-intervals.py ':include :type=code')
 <!-- tabs:end -->

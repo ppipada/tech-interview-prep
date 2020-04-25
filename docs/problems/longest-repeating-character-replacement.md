@@ -51,5 +51,5 @@ Solution:
 <!-- tabs:start -->
 #### **Python**
 
-[Python](../../pycode/string/longest-repeating-character-replacement.py ':include :type=code')
+[Python](../pycode/string/longest-repeating-character-replacement.py ':include :type=code')
 <!-- tabs:end -->
