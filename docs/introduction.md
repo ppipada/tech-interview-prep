@@ -25,8 +25,9 @@
 - Every coding problem has tags related to data structure used, best suited algorithm, relevant pattern and difficulty level of the problem. Also a practice link to Leetcode is provided.
 - Preparation can be done using different methods like
   - [Weekly difficulty level increase](coding.md#difficulty-levels).
-  - [Pattern based approach](coding.md#patterns).
-  - [Data structure based approach](coding.md#data-structure).
+  - [Data structures based approach](coding.md#data-structures).
+  - [Algorithms based approach](coding.md#Algorithms).
+  - [Patterns based approach](coding.md#patterns).
 - Recommended sequence based on each approach is provided.
 
 ## Tip
