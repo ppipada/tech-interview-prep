@@ -1,11 +1,12 @@
 ---
 title: Reverse linked list
-tags: [linkedlist]
+tags: [linkedlist, level-0]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [linkedlist]({{tagspath}}/linkedlist)
+:fa fa-tag fa-fw: [level-0]({{tagspath}}/level-0)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/reverse-linked-list/)
 

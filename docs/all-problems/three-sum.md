@@ -1,11 +1,13 @@
 ---
 title: Three sum
-tags: [array]
+tags: [array, hash-table, level-2]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [array]({{tagspath}}/array)
+:fa fa-tag fa-fw: [hash-table]({{tagspath}}/hash-table)
+:fa fa-tag fa-fw: [level-2]({{tagspath}}/level-2)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/3sum/)
 

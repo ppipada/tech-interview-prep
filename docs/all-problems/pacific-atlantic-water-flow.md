@@ -1,11 +1,14 @@
 ---
 title: Pacific-Atlantic water flow
-tags: [graph]
+tags: [graph, dfs, bfs, level-4]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [graph]({{tagspath}}/graph)
+:fa fa-tag fa-fw: [dfs]({{tagspath}}/dfs)
+:fa fa-tag fa-fw: [bfs]({{tagspath}}/bfs)
+:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 

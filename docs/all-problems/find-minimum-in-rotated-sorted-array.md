@@ -1,11 +1,13 @@
 ---
 title: Find minimum in rotated sorted array
-tags: [array]
+tags: [array, binary-search, level-2]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [array]({{tagspath}}/array)
+:fa fa-tag fa-fw: [binary-search]({{tagspath}}/binary-search)
+:fa fa-tag fa-fw: [level-2]({{tagspath}}/level-2)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 

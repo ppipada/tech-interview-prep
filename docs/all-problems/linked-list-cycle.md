@@ -1,11 +1,12 @@
 ---
 title: Linked list cycle
-tags: [linkedlist]
+tags: [linkedlist, level-1]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [linkedlist]({{tagspath}}/linkedlist)
+:fa fa-tag fa-fw: [level-1]({{tagspath}}/level-1)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/linked-list-cycle/)
 

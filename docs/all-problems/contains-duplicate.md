@@ -1,11 +1,13 @@
 ---
 title: Contains duplicate
-tags: [array]
+tags: [array, hash-table, level-0]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [array]({{tagspath}}/array)
+:fa fa-tag fa-fw: [hash-table]({{tagspath}}/hash-table)
+:fa fa-tag fa-fw: [level-0]({{tagspath}}/level-0)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/contains-duplicate/)
 
