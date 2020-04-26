@@ -1,15 +1,16 @@
 # Introduction
 
 > This is a step by step guide/refresher for software technical interviews.
-> The focus is on getting all things in one place so as to serve as a single, structured refresher source for programming interviews.
+>
+> The focus is to get all things in one place to create a single, structured refresher source for programming interviews.
 
 ## What
 
-- Information about basics, coding, system design is provided.
+- Information about [data structure and algorithms basics](DS-Algo-basics.md), [coding](coding.md) and [system design](system-design.md) is provided.
 - Structured preparation steps based on different patterns.
 - Recommended questions with [Leetcode](https://leetcode.com/) practice links.
 - Ready python solutions for quick refresher
-- References for further exploration
+- References for exploration
 
 ## Why
 
@@ -23,9 +24,9 @@
 
 - Every coding problem has tags related to data structure used, best suited algorithm, relevant pattern and difficulty level of the problem. Also a practice link to Leetcode is provided.
 - Preparation can be done using different methods like
-  - Weekly level increase.
-  - Pattern based approach.
-  - Data structure based approach.
+  - [Weekly difficulty level increase](coding.md#difficulty-levels).
+  - [Pattern based approach](coding.md#patterns).
+  - [Data structure based approach](coding.md#data-structure).
 - Recommended sequence based on each approach is provided.
 
 ## Tip

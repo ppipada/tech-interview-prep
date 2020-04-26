@@ -10,7 +10,7 @@ from pprint import pprint
 
 import frontmatter
 
-TAG_DIR = 'tags'
+TAG_DIR = 'all-tags'
 
 MAX_LEVEL = 2  # Tree level for current script file.
 SCAN_PATH = "."
@@ -24,12 +24,16 @@ EXCLUDED_FILE_PREFIXES = [
     '_',
     '.',
 ]
+
 EXCLUDED_FILES = [
     'introduction.md',
     'CHANGELOG.md',
     'external.md',
     'coverpage.md',
     'all.md',
+    'DS-Algo-basics.md',
+    'coding.md',
+    'system-design.md',
 ]
 
 # Define a section that is always going to be at the top of the sidebar. The
@@ -40,10 +44,12 @@ EXCLUDED_FILES = [
 # '''
 DEFAULT_HEADER = '''
 * [Introduction](introduction.md)
+* [DS Algo basics](DS-Algo-basics.md)
+* [Coding](coding.md)
+* [System Design](system-design.md)
 '''
 
 # Define section that is always going to be at bottom of sidebar
-# * [All problems](problems.md)
 DEFAULT_BOTTOM = '''
 * [External references](external.md)
 * [Changelog](CHANGELOG.md)
@@ -327,7 +333,7 @@ def generate_tag_pages(dir_tree, dir_path="."):
             for entry_path, ftitle in sorted(files):
                 md.write("* [{}]({})\n\n".format(ftitle, entry_path))
 
-    change = subprocess.getoutput("git status tags -s")
+    change = subprocess.getoutput("git status {} -s".format(TAG_DIR))
     if change:
         print("[INFO] Succeed! {} tag-pages created.".format(len(all_tags)))
 

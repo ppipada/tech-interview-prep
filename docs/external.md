@@ -1,4 +1,4 @@
-# External resources
+# External references
 
 - [Tech interview handbook](https://yangshun.github.io/tech-interview-handbook/)
 - [Educative: Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview)
