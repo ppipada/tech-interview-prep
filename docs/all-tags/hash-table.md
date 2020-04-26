@@ -10,6 +10,8 @@
 
 * [Three sum](all-problems/three-sum.md)
 
+* [Top k frequent elements](all-problems/top-k-frequent-elements.md)
+
 * [Two sum](all-problems/two-sum.md)
 
 * [Valid anagram](all-problems/valid-anagram.md)

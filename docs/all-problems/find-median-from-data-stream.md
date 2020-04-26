@@ -1,11 +1,12 @@
 ---
 title: Find median from data stream
-tags: [heap]
+tags: [heap, level-5]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [heap]({{tagspath}}/heap)
+:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/)
 

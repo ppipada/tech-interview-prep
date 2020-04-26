@@ -1,11 +1,12 @@
 ---
 title: Serialize and deserialize a binary tree
-tags: [tree]
+tags: [tree, level-5]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
+:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 

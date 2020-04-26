@@ -1,11 +1,13 @@
 ---
 title: Binary tree maximum path sum
-tags: [tree]
+tags: [tree, dfs, level-5]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
+:fa fa-tag fa-fw: [dfs]({{tagspath}}/dfs)
+:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
 
 Description:
 

@@ -1,11 +1,13 @@
 ---
 title: Binary tree level order traversal
-tags: [tree]
+tags: [tree, bfs, level-3]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
+:fa fa-tag fa-fw: [bfs]({{tagspath}}/bfs)
+:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/same-tree/)
 

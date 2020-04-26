@@ -1,11 +1,13 @@
 ---
 title: Maximum depth of binary tree
-tags: [tree]
+tags: [tree, dfs, level-1]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
+:fa fa-tag fa-fw: [dfs]({{tagspath}}/dfs)
+:fa fa-tag fa-fw: [level-1]({{tagspath}}/level-1)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 

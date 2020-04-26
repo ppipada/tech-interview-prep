@@ -1,11 +1,12 @@
 ---
 title: Set matrix zeroes
-tags: [array]
+tags: [array, level-3]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [array]({{tagspath}}/array)
+:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)
 

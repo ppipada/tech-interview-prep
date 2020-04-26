@@ -1,11 +1,13 @@
 ---
 title: Meeting rooms II
-tags: [array]
+tags: [array, intervals, level-4]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [array]({{tagspath}}/array)
+:fa fa-tag fa-fw: [intervals]({{tagspath}}/intervals)
+:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
 
 Description:
 

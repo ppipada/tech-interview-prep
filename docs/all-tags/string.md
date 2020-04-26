@@ -22,3 +22,5 @@
 
 * [Valid parentheses](all-problems/valid-parentheses.md)
 
+* [Word break](all-problems/word-break.md)
+

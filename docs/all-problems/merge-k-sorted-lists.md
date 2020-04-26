@@ -1,11 +1,14 @@
 ---
 title: Merge k sorted lists
-tags: [linkedlist]
+tags: [linkedlist, divide-and-conquer, heap, level-5]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [linkedlist]({{tagspath}}/linkedlist)
+:fa fa-tag fa-fw: [divide-and-conquer]({{tagspath}}/divide-and-conquer)
+:fa fa-tag fa-fw: [heap]({{tagspath}}/heap)
+:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/)
 

@@ -1,11 +1,12 @@
 ---
 title: Reverse bits
-tags: [bits]
+tags: [bits, level-2]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [bits]({{tagspath}}/bits)
+:fa fa-tag fa-fw: [level-2]({{tagspath}}/level-2)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/reverse-bits/)
 

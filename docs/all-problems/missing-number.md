@@ -1,11 +1,13 @@
 ---
 title: Missing number
-tags: [bits]
+tags: [bits, array, level-2]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [bits]({{tagspath}}/bits)
+:fa fa-tag fa-fw: [array]({{tagspath}}/array)
+:fa fa-tag fa-fw: [level-2]({{tagspath}}/level-2)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/missing-number/)
 

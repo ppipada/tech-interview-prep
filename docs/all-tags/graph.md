@@ -1,6 +1,6 @@
 # Graph
 
-* [Alien dictonary](all-problems/alien-dictionary.md)
+* [Alien dictionary](all-problems/alien-dictionary.md)
 
 * [Clone graph](all-problems/clone-graph.md)
 

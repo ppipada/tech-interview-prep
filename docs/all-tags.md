@@ -2,6 +2,8 @@
 
 * [Array](all-tags/array.md)
 
+* [Backtracking](all-tags/backtracking.md)
+
 * [Bfs](all-tags/bfs.md)
 
 * [Binary search](all-tags/binary-search.md)
@@ -15,6 +17,8 @@
 * [Dynamic programming](all-tags/dynamic-programming.md)
 
 * [Graph](all-tags/graph.md)
+
+* [Greedy](all-tags/greedy.md)
 
 * [Hash table](all-tags/hash-table.md)
 

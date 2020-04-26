@@ -1,11 +1,13 @@
 ---
 title: Word break
-tags: [dynamic-programming]
+tags: [dynamic-programming, string, level-4]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [dynamic-programming]({{tagspath}}/dynamic-programming)
+:fa fa-tag fa-fw: [string]({{tagspath}}/string)
+:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/word-break/)
 

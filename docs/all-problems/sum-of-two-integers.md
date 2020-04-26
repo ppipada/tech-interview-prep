@@ -1,11 +1,13 @@
 ---
 title: Sum of two integers
-tags: [bits]
+tags: [bits, level-1]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [bits]({{tagspath}}/bits)
+:fa fa-tag fa-fw: [level-1]({{tagspath}}/level-1)
+
 
 Practice Link: [LeetCode](https://leetcode.com/problems/sum-of-two-integers/)
 

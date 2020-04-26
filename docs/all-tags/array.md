@@ -4,9 +4,13 @@
 
 * [Combination sum IV](all-problems/combination-sum-iv.md)
 
+* [Construct binary tree from preorder and inorder traversal](all-problems/construct-binary-tree-from-preorder-and-inorder-traversal.md)
+
 * [Container with most water](all-problems/container-with-most-water.md)
 
 * [Contains duplicate](all-problems/contains-duplicate.md)
+
+* [Counting bits](all-problems/counting-bits.md)
 
 * [Find minimum in rotated sorted array](all-problems/find-minimum-in-rotated-sorted-array.md)
 
@@ -31,6 +35,8 @@
 * [Meeting rooms](all-problems/meeting-rooms.md)
 
 * [Merge intervals](all-problems/merge-intervals.md)
+
+* [Missing number](all-problems/missing-number.md)
 
 * [Non overlapping intervals](all-problems/non-overlapping-intervals.md)
 
