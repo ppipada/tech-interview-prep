@@ -2,7 +2,7 @@
 * [Introduction](introduction.md)
 * [Problems](problems.md)
   * [Add and search word](problems/add-and-search-word.md)
-  * [Alien dictonary](problems/alien-dictonary.md)
+  * [Alien dictionary](problems/alien-dictionary.md)
   * [Best time to buy and sell stock](problems/best-time-to-buy-and-sell-stock.md)
   * [Binary tree level order traversal](problems/binary-tree-level-order-traversal.md)
   * [Binary tree maximum path sum](problems/binary-tree-maximum-path-sum.md)

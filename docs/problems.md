@@ -2,7 +2,7 @@
 
 * [Add and search word](problems/add-and-search-word.md)
 
-* [Alien dictonary](problems/alien-dictonary.md)
+* [Alien dictionary](problems/alien-dictionary.md)
 
 * [Best time to buy and sell stock](problems/best-time-to-buy-and-sell-stock.md)
 
