@@ -1,12 +1,12 @@
 ---
 title: Invert a binary tree
-tags: [tree, level-1]
+tags: [tree, level-0]
 ---
 
 # {{title}}
 
 :fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
-:fa fa-tag fa-fw: [level-1]({{tagspath}}/level-1)
+:fa fa-tag fa-fw: [level-1]({{tagspath}}/level-0)
 
 Practice Link: [LeetCode](https://leetcode.com/problems/invert-binary-tree/)
 

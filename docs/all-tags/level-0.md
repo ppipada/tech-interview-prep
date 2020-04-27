@@ -2,7 +2,9 @@
 
 * [Contains duplicate](all-problems/contains-duplicate.md)
 
-* [Reverse linked list](all-problems/reverse-linked-list.md)
+* [Invert a binary tree](all-problems/invert-binary-tree.md)
+
+* [Maximum depth of binary tree](all-problems/maximum-depth-of-binary-tree.md)
 
 * [Two sum](all-problems/two-sum.md)
 
