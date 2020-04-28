@@ -1,13 +1,13 @@
 ---
 title: Valid parentheses
-tags: [string, stack, level-1]
+tags: [string, stack, 'level-1']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [string]({{tagspath}}/string)
-:fa fa-tag fa-fw: [stack]({{tagspath}}/stack)
-:fa fa-tag fa-fw: [level-1]({{tagspath}}/level-1)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/valid-parentheses/)
 

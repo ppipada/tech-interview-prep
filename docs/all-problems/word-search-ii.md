@@ -1,13 +1,13 @@
 ---
 title: Word search II
-tags: [trie, backtracking, level-5]
+tags: [trie, backtracking, 'level-5']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [trie]({{tagspath}}/trie)
-:fa fa-tag fa-fw: [backtracking]({{tagspath}}/backtracking)
-:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/word-search-ii/)
 

@@ -1,13 +1,13 @@
 ---
 title: Insert interval
-tags: [array, intervals, level-5]
+tags: [array, intervals, 'level-5']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [intervals]({{tagspath}}/intervals)
-:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/insert-interval/)
 

@@ -1,14 +1,13 @@
 ---
 title: Non overlapping intervals
-tags: [array, greedy, intervals, level-4]
+tags: [array, greedy, intervals, 'level-4']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [greedy]({{tagspath}}/greedy)
-:fa fa-tag fa-fw: [intervals]({{tagspath}}/intervals)
-:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/non-overlapping-intervals/)
 

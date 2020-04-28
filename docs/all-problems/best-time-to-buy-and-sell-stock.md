@@ -1,12 +1,13 @@
 ---
 title: Best time to buy and sell stock
-tags: [array, level-1]
+tags: [array, 'level-1']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [level-1]({{tagspath}}/level-1)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 

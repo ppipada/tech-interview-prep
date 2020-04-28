@@ -1,12 +1,13 @@
 ---
 title: Encode and decode strings
-tags: [string, level-4]
+tags: [string, 'level-4']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [string]({{tagspath}}/string)
-:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Description:
 

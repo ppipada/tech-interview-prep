@@ -1,14 +1,13 @@
 ---
 title: Clone graph
-tags: [graph, dfs, bfs, level-3]
+tags: [graph, dfs, bfs, 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [graph]({{tagspath}}/graph)
-:fa fa-tag fa-fw: [dfs]({{tagspath}}/dfs)
-:fa fa-tag fa-fw: [bfs]({{tagspath}}/bfs)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Description:
 

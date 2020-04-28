@@ -1,14 +1,13 @@
 ---
 title: Construct binary tree from preorder and inorder traversal
-tags: [tree, array, dfs, level-3]
+tags: [tree, array, dfs, 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [dfs]({{tagspath}}/dfs)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 

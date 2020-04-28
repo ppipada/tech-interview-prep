@@ -1,13 +1,13 @@
 ---
 title: Add and search word - data structure design
-tags: [trie, backtracking, level-4]
+tags: [trie, backtracking, 'level-4']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [trie]({{tagspath}}/trie)
-:fa fa-tag fa-fw: [backtracking]({{tagspath}}/backtracking)
-:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
 

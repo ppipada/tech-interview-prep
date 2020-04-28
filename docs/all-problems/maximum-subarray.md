@@ -1,14 +1,13 @@
 ---
 title: Maximum subarray
-tags: [array, divide-and-conquer, dynamic-programming, level-2]
+tags: [array, 'divide-and-conquer', 'dynamic-programming', 'level-2']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [divide-and-conquer]({{tagspath}}/divide-and-conquer)
-:fa fa-tag fa-fw: [dynamic-programming]({{tagspath}}/dynamic-programming)
-:fa fa-tag fa-fw: [level-2]({{tagspath}}/level-2)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/maximum-subarray/)
 

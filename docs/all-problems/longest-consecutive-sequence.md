@@ -1,13 +1,13 @@
 ---
 title: Longest consecutive sequence
-tags: [array, union-find, level-5]
+tags: [array, 'union-find', 'level-5']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [union-find]({{tagspath}}/union-find)
-:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/)
 

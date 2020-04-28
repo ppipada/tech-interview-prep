@@ -1,12 +1,13 @@
 ---
 title: Graph valid tree
-tags: [graph, level-5]
+tags: [graph, 'level-5']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [graph]({{tagspath}}/graph)
-:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Description:
 

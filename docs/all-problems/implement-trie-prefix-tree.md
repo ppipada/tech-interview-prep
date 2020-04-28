@@ -1,12 +1,13 @@
 ---
 title: Implement trie (prefix tree)
-tags: [trie, level-4]
+tags: [trie, 'level-4']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [trie]({{tagspath}}/trie)
-:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/)
 

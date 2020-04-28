@@ -1,13 +1,13 @@
 ---
 title: Search in rotated sorted array
-tags: [array, binary-search, level-3]
+tags: [array, 'binary-search', 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [binary-search]({{tagspath}}/binary-search)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 

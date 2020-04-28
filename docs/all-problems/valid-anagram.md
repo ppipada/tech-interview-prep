@@ -1,13 +1,13 @@
 ---
 title: Valid anagram
-tags: [string, hash-table, level-1]
+tags: [string, 'hash-table', 'level-1']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [string]({{tagspath}}/string)
-:fa fa-tag fa-fw: [hash-table]({{tagspath}}/hash-table)
-:fa fa-tag fa-fw: [level-1]({{tagspath}}/level-1)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/valid-anagram/)
 

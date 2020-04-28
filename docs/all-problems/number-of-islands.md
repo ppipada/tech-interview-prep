@@ -1,15 +1,13 @@
 ---
 title: Number of islands
-tags: [graph, dfs, bfs, union-find, level-4]
+tags: [graph, dfs, bfs, 'union-find', 'level-4']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [graph]({{tagspath}}/graph)
-:fa fa-tag fa-fw: [dfs]({{tagspath}}/dfs)
-:fa fa-tag fa-fw: [bfs]({{tagspath}}/bfs)
-:fa fa-tag fa-fw: [union-find]({{tagspath}}/union-find)
-:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/number-of-islands/)
 

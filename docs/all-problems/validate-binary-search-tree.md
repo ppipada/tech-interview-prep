@@ -1,13 +1,13 @@
 ---
 title: Validate a binary search tree
-tags: [tree, dfs, level-2]
+tags: [tree, dfs, 'level-2']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
-:fa fa-tag fa-fw: [dfs]({{tagspath}}/dfs)
-:fa fa-tag fa-fw: [level-2]({{tagspath}}/level-2)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/)
 

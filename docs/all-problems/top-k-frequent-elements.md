@@ -1,13 +1,13 @@
 ---
 title: Top k frequent elements
-tags: [heap, hash-table, level-3]
+tags: [heap, 'hash-table', 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [heap]({{tagspath}}/heap)
-:fa fa-tag fa-fw: [hash-table]({{tagspath}}/hash-table)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Description:
 

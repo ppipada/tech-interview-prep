@@ -1,14 +1,13 @@
 ---
 title: Minimum window substring
-tags: [string, hash-table, sliding-window, level-5]
+tags: [string, 'hash-table', 'sliding-window', 'level-5']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [string]({{tagspath}}/string)
-:fa fa-tag fa-fw: [hash-table]({{tagspath}}/hash-table)
-:fa fa-tag fa-fw: [sliding-window]({{tagspath}}/sliding-window)
-:fa fa-tag fa-fw: [level-5]({{tagspath}}/level-5)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/minimum-window-substring/)
 

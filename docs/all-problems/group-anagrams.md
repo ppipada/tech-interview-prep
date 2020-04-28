@@ -1,13 +1,13 @@
 ---
 title: Group anagrams
-tags: [string, hash-table, level-3]
+tags: [string, 'hash-table', 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [string]({{tagspath}}/string)
-:fa fa-tag fa-fw: [hash-table]({{tagspath}}/hash-table)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/group-anagrams/)
 

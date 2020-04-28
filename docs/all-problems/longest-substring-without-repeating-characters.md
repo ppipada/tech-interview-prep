@@ -1,14 +1,13 @@
 ---
 title: Longest substring without repeating characters
-tags: [string, hash-table, sliding-window, level-4]
+tags: [string, 'hash-table', 'sliding-window', 'level-4']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [string]({{tagspath}}/string)
-:fa fa-tag fa-fw: [hash-table]({{tagspath}}/hash-table)
-:fa fa-tag fa-fw: [sliding-window]({{tagspath}}/sliding-window)
-:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 

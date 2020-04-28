@@ -1,12 +1,13 @@
 ---
 title: Remove n'th node from end of list
-tags: [linkedlist, level-3]
+tags: [linkedlist, 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [linkedlist]({{tagspath}}/linkedlist)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 

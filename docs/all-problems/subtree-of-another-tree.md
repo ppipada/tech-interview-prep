@@ -1,12 +1,13 @@
 ---
 title: Subtree of another tree
-tags: [tree, level-3]
+tags: [tree, 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/)
 

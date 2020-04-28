@@ -1,14 +1,13 @@
 ---
 title: Longest increasing subsequence
-tags: [array, dynamic-programming, binary-search, level-4]
+tags: [array, 'dynamic-programming', 'binary-search', 'level-4']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [dynamic-programming]({{tagspath}}/dynamic-programming)
-:fa fa-tag fa-fw: [binary-search]({{tagspath}}/binary-search)
-:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/)
 

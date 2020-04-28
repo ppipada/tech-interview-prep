@@ -1,13 +1,13 @@
 ---
 title: Kth smallest element in a BST
-tags: [tree, binary-search, level-3]
+tags: [tree, 'binary-search', 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [tree]({{tagspath}}/tree)
-:fa fa-tag fa-fw: [binary-search]({{tagspath}}/binary-search)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 

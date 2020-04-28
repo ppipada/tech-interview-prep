@@ -1,14 +1,13 @@
 ---
 title: Course schedule
-tags: [graph, dfs, bfs, level-4]
+tags: [graph, dfs, bfs, 'level-4']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [graph]({{tagspath}}/graph)
-:fa fa-tag fa-fw: [dfs]({{tagspath}}/dfs)
-:fa fa-tag fa-fw: [bfs]({{tagspath}}/bfs)
-:fa fa-tag fa-fw: [level-4]({{tagspath}}/level-4)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Description:
 

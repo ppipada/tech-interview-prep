@@ -1,13 +1,13 @@
 ---
 title: House robber
-tags: [array, dynamic-programming, level-3]
+tags: [array, 'dynamic-programming', 'level-3']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [array]({{tagspath}}/array)
-:fa fa-tag fa-fw: [dynamic-programming]({{tagspath}}/dynamic-programming)
-:fa fa-tag fa-fw: [level-3]({{tagspath}}/level-3)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/house-robber/)
 

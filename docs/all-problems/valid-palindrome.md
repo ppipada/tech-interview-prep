@@ -1,12 +1,13 @@
 ---
 title: Valid palindrome
-tags: [string, level-2]
+tags: [string, 'level-2']
 ---
 
 # {{title}}
 
-:fa fa-tag fa-fw: [string]({{tagspath}}/string)
-:fa fa-tag fa-fw: [level-2]({{tagspath}}/level-2)
+{{#tags}}
+:fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/valid-palindrome/)
 
