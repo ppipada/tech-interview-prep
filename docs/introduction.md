@@ -34,3 +34,10 @@
 
 > When preparing for interviews make sure that you have PRACTICED coding using online judges like [Leetcode](https://leetcode.com/).
 > This site serves as a quick refresher place rather than a practice arena.
+
+## Pending TODO list
+
+- DS-Algo basic refresher info.
+- Add basic and advanced data structures, code for basic operations, time complexities.
+- System design interview questions and refresher.
+- Tips related to behavioral round.
