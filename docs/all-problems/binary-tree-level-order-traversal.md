@@ -8,6 +8,9 @@ tags: [tree, bfs, 'level-3']
 {{#tags}}
 :fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
 {{/tags}}
+{{^tags}}
+:fa fa-tag fa-fw: "No tags found !!!"
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/same-tree/)
 

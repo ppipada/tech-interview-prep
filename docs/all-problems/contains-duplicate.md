@@ -8,6 +8,9 @@ tags: [array, 'hash-table', 'level-0']
 {{#tags}}
 :fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
 {{/tags}}
+{{^tags}}
+:fa fa-tag fa-fw: "No tags found !!!"
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/contains-duplicate/)
 

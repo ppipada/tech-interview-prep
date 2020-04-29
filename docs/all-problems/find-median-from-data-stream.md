@@ -8,6 +8,9 @@ tags: [heap, 'level-5']
 {{#tags}}
 :fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
 {{/tags}}
+{{^tags}}
+:fa fa-tag fa-fw: "No tags found !!!"
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/)
 

@@ -8,6 +8,9 @@ tags: [graph, 'level-5']
 {{#tags}}
 :fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
 {{/tags}}
+{{^tags}}
+:fa fa-tag fa-fw: "No tags found !!!"
+{{/tags}}
 
 Description:
 

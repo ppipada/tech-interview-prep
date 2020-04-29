@@ -8,6 +8,9 @@ tags: [tree, array, dfs, 'level-3']
 {{#tags}}
 :fa fa-tag fa-fw: [{{.}}]({{tagspath}}/{{.}})
 {{/tags}}
+{{^tags}}
+:fa fa-tag fa-fw: "No tags found !!!"
+{{/tags}}
 
 Practice Link: [LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
