@@ -15,7 +15,7 @@ TAG_DIR = 'all-tags'
 MAX_LEVEL = 2  # Tree level for current script file.
 SCAN_PATH = "."
 
-EXCLUDED_DIRECTORIES = ["pycode"]
+EXCLUDED_DIRECTORIES = ["pycode", "images"]
 # EXCLUDED_DIRECTORIES_FROM_SIDEBAR = ["problems"]
 EXCLUDED_DIRECTORIES_FROM_SIDEBAR = []
 INCLUDED_FILE_TYPES = ["*.md"]
@@ -31,7 +31,8 @@ EXCLUDED_FILES = [
     'external.md',
     'coverpage.md',
     'all.md',
-    'DS-Algo-basics.md',
+    'data-structures.md',
+    'algorithms.md'
     'coding.md',
     'system-design.md',
 ]
@@ -44,7 +45,8 @@ EXCLUDED_FILES = [
 # '''
 DEFAULT_HEADER = '''
 * [Introduction](introduction.md)
-* [DS Algo basics](DS-Algo-basics.md)
+* [Data structures](data-structures.md)
+* [Algorithms](algorithms.md)
 * [Coding](coding.md)
 * [System Design](system-design.md)
 '''
@@ -212,6 +214,7 @@ def get_direntries(path='.',
             if (any(i for i in exclude_prefixes if d.name.startswith(i))):
                 print("excluded:", d.name)
                 continue
+            print("included:" d.name)
             _, ext = os.path.splitext(d.path)
             if ext in include_file_types:
                 flist.append(d.path)

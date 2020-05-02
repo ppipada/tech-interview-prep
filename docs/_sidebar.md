@@ -1,8 +1,11 @@
 
 * [Introduction](introduction.md)
-* [DS Algo basics](DS-Algo-basics.md)
+* [Data structures](data-structures.md)
+* [Algorithms](algorithms.md)
 * [Coding](coding.md)
 * [System Design](system-design.md)
+* [Algorithms](algorithms.md)
+* [Coding](coding.md)
 * [All problems](all-problems.md)
   * [Add and search word](all-problems/add-and-search-word.md)
   * [Alien dictionary](all-problems/alien-dictionary.md)

@@ -6,7 +6,7 @@
 
 ## What
 
-- Information about [data structure and algorithms basics](DS-Algo-basics.md), [coding](coding.md) and [system design](system-design.md) is provided.
+- Information about [data structures](data-structures.md) and [algorithms](algorithms.md) basics, [coding](coding.md) and [system design](system-design.md) is provided.
 - Structured preparation steps based on different patterns.
 - Recommended questions with [Leetcode](https://leetcode.com/) practice links.
 - Ready python solutions for quick refresher
