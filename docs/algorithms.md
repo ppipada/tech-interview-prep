@@ -4,6 +4,10 @@
 
 ### Quicksort
 
+- Quicksort is a divide-and-conquer algorithm.
+- It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.
+- The sub-arrays are then sorted recursively.
+- This can be done in-place, requiring small additional amounts of memory to perform the sorting.
 - Stable: `No`
 
 Time Complexity:
@@ -135,13 +139,13 @@ Time Complexity:
 | Operation                 | Expression                |
 | ------------------------- | ------------------------- |
 | Test kth bit              | `s & (1 << k);`           |
-| Set kth bit               | `s |= (1 << k);`          |
+| Set kth bit               | `s \|= (1 << k);`          |
 | Turn off kth bit          | `s &= ~(1 << k);`         |
 | Toggle kth bit            | `s ^= (1 << k);`          |
 | Multiple by 2<sup>n</sup> | `s << n;`                 |
 | Divide by 2<sup>n</sup>   | `s >> n;`                 |
 | Intersection              | `s & t;`                  |
-| Union                     | `s | t;`                  |
+| Union                     | `s \| t;`                  |
 | Set Subtraction           | `s & ~t;`                 |
 | Extract lowest set bit    | `s & (-s);`               |
 | Extract lowest unset bit  | `~s & (s + 1);`           |
