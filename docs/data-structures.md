@@ -58,7 +58,7 @@
   - Insert: `O(log(n))`
   - Remove: `O(log(n))`
 
-[Image](images/bst-search.svg ':include')
+![BST search](images/bst-search.svg "BST search")
 
 ## Trie
 
@@ -71,7 +71,7 @@ Example:
 
 A trie for keys "A", "to", "tea", "ted", "ten", "i", "in", and "inn". Note that this example does not have all the children alphabetically sorted from left to right as it should be (the root and node 't').
 
-[Image](images/trie-example.svg ':include')
+![Trie](images/trie-example.svg "Trie")
 
 ## Fenwick Tree
 
@@ -88,7 +88,7 @@ Example:
 
 Create a binary indexed tree for the array [1, 2, 3, 4, 5] by inserting one by one.
 
-[GIF](images/fenwick-tree-demo.gif ':include')
+![Fenwick tree](images/fenwick-tree-demo.gif "Fenwick tree")
 
 ## Segment Tree
 
@@ -102,7 +102,7 @@ Example:
 
 Graphic example of the structure of the segment tree. This instance is built for the segments shown at the bottom.
 
-[Image](images/segment-tree.png ':include')
+![Segment tree](images/segment-tree.png "Segment tree")
 
 ## Heap
 
@@ -120,7 +120,7 @@ Example:
 
 Example of a binary max-heap with node keys being integers from 1 to 100
 
-[Image](images/max-heap.svg ':include')
+![Max heap](images/max-heap.svg "Max heap")
 
 ## Hash map
 
@@ -139,7 +139,7 @@ Example:
 
 Hash collision resolved by separate chaining.
 
-[Image](images/hash-table-separate-chianing.svg ':include')
+![Hash table](images/hash-table-separate-chianing.svg "Hash table")
 
 ## Graph
 
@@ -153,4 +153,4 @@ Hash collision resolved by separate chaining.
 
 Example:
 
-[Image](images/directed-graph.svg)
+![Directed Graph](images/directed-graph.svg "Directed Graph")

@@ -20,7 +20,7 @@
 - But, when a quick refresher is needed, one needs to navigate through multiple places to collect the problem statements, solutions, sequence to go about them, etc.
 - This site aims to provide a solution to this problem.
 
-## Format
+## Coding problems format
 
 - Every coding problem has tags related to data structure used, best suited algorithm, relevant pattern and difficulty level of the problem. Also a practice link to Leetcode is provided.
 - Preparation can be done using different approaches based on:
