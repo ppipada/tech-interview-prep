@@ -26,14 +26,14 @@ EXCLUDED_FILE_PREFIXES = [
 ]
 
 EXCLUDED_FILES = [
+    'algorithms.md',
+    'coding.md',
     'introduction.md',
     'CHANGELOG.md',
     'external.md',
     'coverpage.md',
     'all.md',
     'data-structures.md',
-    'algorithms.md'
-    'coding.md',
     'system-design.md',
 ]
 
@@ -214,7 +214,7 @@ def get_direntries(path='.',
             if (any(i for i in exclude_prefixes if d.name.startswith(i))):
                 print("excluded:", d.name)
                 continue
-            print("included:" d.name)
+            # print("included:", d.name)
             _, ext = os.path.splitext(d.path)
             if ext in include_file_types:
                 flist.append(d.path)
