@@ -15,7 +15,7 @@ TAG_DIR = 'all-tags'
 MAX_LEVEL = 2  # Tree level for current script file.
 SCAN_PATH = "."
 
-EXCLUDED_DIRECTORIES = ["pycode", "images"]
+EXCLUDED_DIRECTORIES = ["pycode", "images", "algorithms"]
 # EXCLUDED_DIRECTORIES_FROM_SIDEBAR = ["problems"]
 EXCLUDED_DIRECTORIES_FROM_SIDEBAR = []
 INCLUDED_FILE_TYPES = ["*.md"]
@@ -47,6 +47,10 @@ DEFAULT_HEADER = '''
 * [Introduction](introduction.md)
 * [Data structures](data-structures.md)
 * [Algorithms](algorithms.md)
+  * [Bitmasks](algorithms/bitmasks.md)
+  * [Sorting](algorithms/sorting.md)
+  * [Graph](algorithms/graph.md)
+  * [Greedy](algorithms/greedy.md)
 * [Coding](coding.md)
 * [System Design](system-design.md)
 '''

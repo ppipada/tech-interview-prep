@@ -1,5 +1,26 @@
 # Data Structures
 
+## Complexity summary
+
+- Worst case time and space complexity
+
+| Data Structure                                                                            | Access      | Search      | Insertion   | Deletion    | Space complexity |
+| ----------------------------------------------------------------------------------------- | ----------- | ----------- | ----------- | ----------- | ---------------- |
+| [Array](http://en.wikipedia.org/wiki/Array_data_structure)                                | `O(1)`      | `O(n)`      | `O(n)`      | `O(n)`      | `O(n)`           |
+| [Stack](<http://en.wikipedia.org/wiki/Stack_(abstract_data_type)>)                        | `O(n)`      | `O(n)`      | `O(1)`      | `O(1)`      | `O(n)`           |
+| [Queue](<http://en.wikipedia.org/wiki/Queue_(abstract_data_type)>)                        | `O(n)`      | `O(n)`      | `O(1)`      | `O(1)`      | `O(n)`           |
+| [Singly-Linked List](http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists) | `O(n)`      | `O(n)`      | `O(1)`      | `O(1)`      | `O(n)`           |
+| [Doubly-Linked List](http://en.wikipedia.org/wiki/Doubly_linked_list)                     | `O(n)`      | `O(n)`      | `O(1)`      | `O(1)`      | `O(n)`           |
+| [Skip List](http://en.wikipedia.org/wiki/Skip_list)                                       | `O(n)`      | `O(n)`      | `O(n)`      | `O(n)`      | `O(n log(n))`    |
+| [Hash Table](http://en.wikipedia.org/wiki/Hash_table)                                     | `N/A`       | `O(n)`      | `O(n)`      | `O(n)`      | `O(n)`           |
+| [Binary Search Tree](http://en.wikipedia.org/wiki/Binary_search_tree)                     | `O(n)`      | `O(n)`      | `O(n)`      | `O(n)`      | `O(n)`           |
+| [Cartesian Tree](https://en.wikipedia.org/wiki/Cartesian_tree)                            | `N/A`       | `O(n)`      | `O(n)`      | `O(n)`      | `O(n)`           |
+| [B-Tree](http://en.wikipedia.org/wiki/B_tree)                                             | `O(log(n))` | `O(log(n))` | `O(log(n))` | `O(log(n))` | `O(n)`           |
+| [Red-Black Tree](http://en.wikipedia.org/wiki/Red-black_tree)                             | `O(log(n))` | `O(log(n))` | `O(log(n))` | `O(log(n))` | `O(n)`           |
+| [Splay Tree](https://en.wikipedia.org/wiki/Splay_tree)                                    | `N/A`       | `O(log(n))` | `O(log(n))` | `O(log(n))` | `O(n)`           |
+| [AVL Tree](http://en.wikipedia.org/wiki/AVL_tree)                                         | `O(log(n))` | `O(log(n))` | `O(log(n))` | `O(log(n))` | `O(n)`           |
+| [KD Tree](http://en.wikipedia.org/wiki/K-d_tree)                                          | `O(n)`      | `O(n)`      | `O(n)`      | `O(n)`      | `O(n)`           |
+
 ## Linked List
 
 - A _Linked List_ is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence.
@@ -7,42 +28,15 @@
 - **Doubly-linked list**: linked list in which each node has two pointers, p and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null.
 - **Circular-linked list**: linked list in which each node points to the next node and the last node points back to the first node.
 
-Time Complexity:
-
-| Operation | Complexity |
-| --------- | ---------- |
-| Access    | `O(n)`     |
-| Search    | `O(n)`     |
-| Insert    | `O(1)`     |
-| Remove    | `O(1)`     |
-
 ## Stack
 
 - A _Stack_ is a collection of elements, with two principle operations: _push_, which adds to the collection, and _pop_, which removes the most recently added element
 - **Last in, first out data structure (LIFO)**: the most recently added object is the first to be removed
 
-Time Complexity:
-
-| Operation | Complexity |
-| --------- | ---------- |
-| Access    | `O(n)`     |
-| Search    | `O(n)`     |
-| Insert    | `O(1)`     |
-| Remove    | `O(1)`     |
-
 ## Queue
 
 - A _Queue_ is a collection of elements, supporting two principle operations: _enqueue_, which inserts an element into the queue, and _dequeue_, which removes an element from the queue
 - **First in, first out data structure (FIFO)**: the oldest added object is the first to be removed
-
-Time Complexity:
-
-| Operation | Complexity |
-| --------- | ---------- |
-| Access    | `O(n)`     |
-| Search    | `O(n)`     |
-| Insert    | `O(1)`     |
-| Remove    | `O(1)`     |
 
 ## Tree
 
@@ -58,15 +52,6 @@ Time Complexity:
 ## Binary Search Tree
 
 - A binary search tree (BST), is a type of binary tree which maintains the property that the value in each node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored in the right sub-tree
-
-Time Complexity:
-
-| Operation | Complexity  |
-| --------- | ----------- |
-| Access    | `O(log(n))` |
-| Search    | `O(log(n))` |
-| Insert    | `O(log(n))` |
-| Remove    | `O(log(n))` |
 
 ![BST search](images/bst-search.svg "BST search")
 
