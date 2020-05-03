@@ -106,10 +106,11 @@ Create a binary indexed tree for the array [1, 2, 3, 4, 5] by inserting one by o
 - A Segment tree, is a tree data structure for storing intervals, or segments. It allows querying which of the stored segments contain a given point
 
 Time Complexity:
-| Operation | Complexity |
-| --------- | ----------- |
+
+| Operation   | Complexity  |
+| ----------- | ----------- |
 | Range Query | `O(log(n))` |
-| Update | `O(log(n))` |
+| Update      | `O(log(n))` |
 
 Example:
 

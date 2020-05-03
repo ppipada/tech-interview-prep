@@ -37,7 +37,7 @@
 
 ## Pending TODO list
 
-- DS-Algo basic refresher info.
-- Add basic and advanced data structures, code for basic operations, time complexities.
+- Add code for basic operations of data structures.
+- Add advanced data structures.
 - System design interview questions and refresher.
 - Tips related to behavioral round.

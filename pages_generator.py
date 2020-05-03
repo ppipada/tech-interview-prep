@@ -382,12 +382,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate pages for docsify")
     parser.add_argument("-t",
                         "--tags",
-                        default=True,
                         action="store_true",
                         help="Generate tags pages from frontmatter")
     parser.add_argument("-s",
                         "--sidebar",
-                        default=True,
                         action="store_true",
                         help="Generate sidebar pages using dir structure")
     args = parser.parse_args()
