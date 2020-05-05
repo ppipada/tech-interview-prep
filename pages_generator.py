@@ -48,6 +48,10 @@ DEFAULT_HEADER = '''
 * [Introduction](README.md)
 * [Data structures](data-structures.md)
 * [Algorithms](algorithms/)
+  * [Bitmasks](algorithms/bitmasks.md)
+  * [Graph](algorithms/graph.md)
+  * [Greedy](algorithms/greedy.md)
+  * [Sorting](algorithms/sorting.md)
 * [Coding](coding.md)
 * [System Design](system-design-primer/)
 '''
@@ -214,9 +218,10 @@ def scan_dir(
             if not current_exclude_from_sidebar:
                 # Create a higher lever entry for this directory
                 write_direntry_in_sidebar(entry_path, level)
+                # write_entry_in_sidebar(entry_path, level, index=True)
             # Scan this directory to add the entries it contains
             # Skipping this and adding just the directory in sidebar
-            # scan_dir(dir_tree, entry_path, sublevel, exclude_from_sidebar=current_exclude_from_sidebar)
+            scan_dir(dir_tree, entry_path, sublevel, exclude_from_sidebar=current_exclude_from_sidebar)
 
 
 def get_direntries(path='.',
