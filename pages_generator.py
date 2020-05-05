@@ -15,7 +15,7 @@ TAG_DIR = 'all-tags'
 MAX_LEVEL = 2  # Tree level for current script file.
 SCAN_PATH = "."
 
-EXCLUDED_DIRECTORIES = ["pycode", "images", "algorithms"]
+EXCLUDED_DIRECTORIES = ["pycode", "images", "algorithms", "system-design-primer"]
 # EXCLUDED_DIRECTORIES_FROM_SIDEBAR = ["problems"]
 EXCLUDED_DIRECTORIES_FROM_SIDEBAR = []
 INCLUDED_FILE_TYPES = ["*.md"]
@@ -35,6 +35,7 @@ EXCLUDED_FILES = [
     'all.md',
     'data-structures.md',
     'system-design.md',
+    'README.md',
 ]
 
 # Define a section that is always going to be at the top of the sidebar. The
@@ -44,15 +45,11 @@ EXCLUDED_FILES = [
 # * [Summary](./summary.md)
 # '''
 DEFAULT_HEADER = '''
-* [Introduction](introduction.md)
+* [Introduction](README.md)
 * [Data structures](data-structures.md)
-* [Algorithms](algorithms.md)
-  * [Bitmasks](algorithms/bitmasks.md)
-  * [Sorting](algorithms/sorting.md)
-  * [Graph](algorithms/graph.md)
-  * [Greedy](algorithms/greedy.md)
+* [Algorithms](algorithms/)
 * [Coding](coding.md)
-* [System Design](system-design.md)
+* [System Design](system-design-primer/)
 '''
 
 # Define section that is always going to be at bottom of sidebar
@@ -78,9 +75,9 @@ def make_display_name_from_path(path):
 
 def create_dir_index_file(dir_tree, dir_path):
     # Create index file name
-    # dir_name = dir_path.split('/')[-1]
+    dir_name = dir_path.split('/')[-1]
     # dir_index_file_path = dir_path.replace(dir_name, '_i_' + dir_name) + '.md'
-    dir_index_file_path = dir_path + '.md'
+    dir_index_file_path = os.path.join(dir_path, "README.md")
 
     if (os.path.isfile(dir_index_file_path)):
         # Clear existing file
@@ -98,6 +95,7 @@ def create_dir_index_file(dir_tree, dir_path):
     entries = dir_entries + file_entries
     for entry_file_name in entries:
         entry_path = dir_path + '/' + entry_file_name
+        # entry_path = entry_file_name
         entry_display_name = make_display_name_from_path(entry_path)
         # if os.path.isdir(entry_path):
         #     entry_path = dir_path + '/_i_' + entry_file_name
@@ -125,6 +123,23 @@ def write_entry_in_sidebar(entry_path, level, index=False):
     append_static_section(
         f"{'  ' * level}* [{entry_display_name}]({entry_path})\n")
 
+def write_direntry_in_sidebar(entry_path, level):
+    """
+    Write the sidebar entry, on the right level
+    """
+    # Add prefix for index files
+    # if index:
+    #     # entry_file_name = entry_path.split('/')[-1]
+    #     # entry_path = entry_path.replace(entry_file_name,
+    #     #                                 '_i_' + entry_file_name) + '.md'
+    #     entry_path = entry_path + '.md'
+    # Write entry in the sidebar file
+    entry_display_name = make_display_name_from_path(entry_path)
+    if entry_path.startswith("./"):
+        entry_path = entry_path[2:]
+    entry_path = entry_path + '/'
+    append_static_section(
+        f"{'  ' * level}* [{entry_display_name}]({entry_path})\n")
 
 def get_dir_entries_from_tree(dir_tree, dir_path):
     dnode = dir_tree.get(dir_path)
@@ -139,6 +154,29 @@ def check_directory_index_file(dir_path, filename):
     entry_path = dir_path + '/' + filename
     return os.path.isdir(entry_path)
 
+def generate_readme_pages(dir_tree,
+    dir_path='.',
+    level=0):
+
+    """
+    Look inside each directory in the project to see if there's anything good to
+    add to the sidebar
+    """
+    dir_entries, file_entries = get_dir_entries_from_tree(dir_tree, dir_path)
+    sublevel = level + 1
+
+    if level > 0:
+        # Create folder index (skip root directory)
+        create_dir_index_file(dir_tree, dir_path)
+
+    for entry_dir_name in dir_entries:
+        # Compose full path for this entry
+        entry_path = dir_path + '/' + entry_dir_name
+        if os.path.isdir(entry_path):
+            # Scan this directory to add the entries it contains
+            generate_readme_pages(dir_tree, entry_path, sublevel)
+
+
 def scan_dir(
     dir_tree,
     dir_path='.',
@@ -151,10 +189,6 @@ def scan_dir(
     """
     dir_entries, file_entries = get_dir_entries_from_tree(dir_tree, dir_path)
     sublevel = level + 1
-
-    if level > 0:
-        # Create folder index (skip root directory)
-        create_dir_index_file(dir_tree, dir_path)
 
     if not exclude_from_sidebar:
         for entry_file_name in file_entries:
@@ -179,9 +213,10 @@ def scan_dir(
         if os.path.isdir(entry_path):
             if not current_exclude_from_sidebar:
                 # Create a higher lever entry for this directory
-                write_entry_in_sidebar(entry_path, level, index=True)
+                write_direntry_in_sidebar(entry_path, level)
             # Scan this directory to add the entries it contains
-            scan_dir(dir_tree, entry_path, sublevel, exclude_from_sidebar=current_exclude_from_sidebar)
+            # Skipping this and adding just the directory in sidebar
+            # scan_dir(dir_tree, entry_path, sublevel, exclude_from_sidebar=current_exclude_from_sidebar)
 
 
 def get_direntries(path='.',
@@ -345,12 +380,12 @@ def generate_tag_pages(dir_tree, dir_path="."):
         print("[INFO] Succeed! {} tag-pages created.".format(len(all_tags)))
 
 
-def process_page_generation(gen_tags, gen_sidebar):
+def process_page_generation(gen_tags, gen_sidebar, gen_readme):
     # Start process
     # First get the eligible directory structure
-    print("Generating tags: {}. Generating sidebar: {}".format(
-        gen_tags, gen_sidebar))
-    if (not gen_tags) and (not gen_sidebar):
+    print("Generating tags: {}. Generating sidebar: {}. Generating readme files: {}".format(
+        gen_tags, gen_sidebar, gen_readme))
+    if (not gen_tags) and (not gen_sidebar) and (not gen_readme):
         print("Not generating anything.")
         return
 
@@ -365,6 +400,9 @@ def process_page_generation(gen_tags, gen_sidebar):
     pprint(result)
     if gen_tags:
         generate_tag_pages(result, dir_path=SCAN_PATH)
+
+    if gen_readme:
+        generate_readme_pages(result, dir_path=SCAN_PATH)
 
     if gen_sidebar:
         # Erase sidebar's content
@@ -388,9 +426,13 @@ if __name__ == "__main__":
                         "--tags",
                         action="store_true",
                         help="Generate tags pages from frontmatter")
+    parser.add_argument("-r",
+                        "--readme",
+                        action="store_true",
+                        help="Generate readme files for directories")
     parser.add_argument("-s",
                         "--sidebar",
                         action="store_true",
                         help="Generate sidebar pages using dir structure")
     args = parser.parse_args()
-    process_page_generation(args.tags, args.sidebar)
+    process_page_generation(args.tags, args.sidebar, args.readme)

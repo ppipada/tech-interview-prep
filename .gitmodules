@@ -1,0 +1,4 @@
+[submodule "docs/system-design-primer"]
+	path = docs/system-design-primer
+	url = git@github.com:ppipada/system-design-primer.git
+	branch = master

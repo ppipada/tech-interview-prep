@@ -6,7 +6,8 @@
 
 ## What
 
-- Information about [data structures](data-structures.md) and [algorithms](algorithms.md) basics, [coding](coding.md) and [system design](system-design.md) is provided.
+- Information about [data structures](data-structures.md) and [algorithms](algorithms.md) basics and [coding](coding.md) is provided.
+- [system design](system-design-primer) section is a docsified version of the excellent [System design primer](https://github.com/donnemartin/system-design-primer)
 - Structured preparation steps based on different patterns.
 - Recommended questions with [Leetcode](https://leetcode.com/) practice links.
 - Ready python solutions for quick refresher
