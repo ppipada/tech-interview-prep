@@ -1,5 +1,5 @@
 
-* [Introduction](README.md)
+* [Introduction](/)
 * [Data structures](data-structures.md)
 * [Algorithms](algorithms/)
   * [Bitmasks](algorithms/bitmasks.md)

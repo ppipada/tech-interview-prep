@@ -45,7 +45,7 @@ EXCLUDED_FILES = [
 # * [Summary](./summary.md)
 # '''
 DEFAULT_HEADER = '''
-* [Introduction](README.md)
+* [Introduction](/)
 * [Data structures](data-structures.md)
 * [Algorithms](algorithms/)
   * [Bitmasks](algorithms/bitmasks.md)
