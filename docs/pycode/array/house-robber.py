@@ -1,6 +1,6 @@
 class Solution:
     def rob(self, nums):
-        last, now = 0, 0
-        for i in nums:
-            last, now = now, max(last + i, now)
-        return now
+        rob, not_rob = 0, 0
+        for num in nums:
+            rob, not_rob = not_rob + num, max(rob, not_rob)
+        return max(rob, not_rob)
